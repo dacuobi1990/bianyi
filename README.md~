@@ -7,12 +7,13 @@ bianyi
 下面是对于目标程序test.c的分析结果
 
 词法分析结果
-![image](https://github.com/dacuobi1990/词法.png)
+![image](https://github.com/dacuobi1990/bianyi/blob/master/cifa.png)
 
 
 语法分析结果
-![image](https://github.com/dacuobi1990/语法.png)
+![image](https://github.com/dacuobi1990/bianyi/blob/master/yufa.png)
+
 
 语义分析结果
-![image](https://github.com/dacuobi1990/中间代码.png)
+![image](https://github.com/dacuobi1990/bianyi/blob/master/mid-coding.png)
 
