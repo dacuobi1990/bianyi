@@ -1,0 +1,38 @@
+s -> pro
+pro -> int main ( ) { exc }
+exc -> exc exc
+exc -> type id [ digit ] = { vallist } ;
+vallist -> vallist , vallist
+vallist -> digit
+type -> int
+exc -> type idval ;
+idval -> idval , idval
+idval -> id
+idval -> idval [ e ]
+exc -> ass ;
+ass -> idval = e
+ass -> idval ++
+ass -> idval --
+e -> e + t
+e -> e - t
+e -> t
+t -> t * f
+t -> t / f
+t -> f
+f -> ( e )
+f -> v
+v -> idval
+v -> digit
+exc -> for ( ass ; bool ; ass ) { exc }
+exc -> while ( bool ) { exc }
+bool -> v >= v
+bool -> v <= v
+bool -> v > v
+bool -> v < v
+bool -> v == v
+bool -> v != v
+exc -> if ( bool ) { exc } else { exc }
+exc -> return e ;
+exc -> printf ( string , idval ) ;
+
+

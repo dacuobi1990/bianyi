@@ -1,0 +1,12 @@
+s 0
+pro 1
+exc 2
+type 3
+vallist 4
+idval 5
+ass 6
+e 7
+t 8
+f 9
+v 10
+bool 11
